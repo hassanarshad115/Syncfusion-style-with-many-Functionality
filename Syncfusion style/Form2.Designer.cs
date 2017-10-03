@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.choosebutton1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.playbutton = new System.Windows.Forms.Button();
@@ -61,31 +62,39 @@
             this.playbutton.Location = new System.Drawing.Point(450, 14);
             this.playbutton.Name = "playbutton";
             this.playbutton.Size = new System.Drawing.Size(81, 28);
-            this.playbutton.TabIndex = 0;
+            this.playbutton.TabIndex = 1;
             this.playbutton.Text = "Play";
             this.playbutton.UseVisualStyleBackColor = true;
             this.playbutton.Click += new System.EventHandler(this.playbutton_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(99, 93);
+            this.button1.Location = new System.Drawing.Point(99, 61);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(326, 23);
+            this.button1.Size = new System.Drawing.Size(326, 30);
             this.button1.TabIndex = 2;
             this.button1.Text = "Go to Metro Form ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(570, 410);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(544, 103);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.playbutton);
             this.Controls.Add(this.choosebutton1);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "HassanMalik";
             this.ResumeLayout(false);
             this.PerformLayout();
 
