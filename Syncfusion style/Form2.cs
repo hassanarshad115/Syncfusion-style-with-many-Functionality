@@ -62,3 +62,15 @@ namespace Syncfusion_style
         }
     }
 }
+
+//OpenFileDialog ofd = new OpenFileDialog();
+
+//            if(ofd.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+//            {
+//                textBox1.Text = ofd.FileName;
+////            }
+
+
+//            WMPLib.WindowsMediaPlayer p = new WMPLib.WindowsMediaPlayer();
+//             p.URL = textBox1.Text;
+//                p.controls.play();
